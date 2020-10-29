@@ -1,9 +1,9 @@
 feature 'switching' do
-
   scenario 'switch turns' do
     sign_in_and_play
     expect(page).to have_content "Dave's turn"
   end
+
 
   scenario 'current turn(after the first turn)' do
     sign_in_and_play
